@@ -1,5 +1,5 @@
 {
-  "main": "console.raml",
+  "main": "/api.raml",
   "name": "Console",
   "classifier": "raml",
   "tags": []
