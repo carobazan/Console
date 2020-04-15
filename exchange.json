@@ -1,1 +1,6 @@
-{"main":"console.raml","name":"Console","classifier":"raml","tags":[]}
+{
+  "main": "console.raml",
+  "name": "Console",
+  "classifier": "raml",
+  "tags": []
+}
