@@ -1,6 +1,1 @@
-{
-  "main": "/api.raml",
-  "name": "Console",
-  "classifier": "raml",
-  "tags": []
-}
+{"main":"api.raml","name":"Console","classifier":"raml","tags":[],"groupId":"49d38246-2815-415b-9151-2b4a87d1b68e","assetId":"console","version":"1.0.0","apiVersion":"1"}
