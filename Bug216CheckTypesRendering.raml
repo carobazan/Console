@@ -1,0 +1,26 @@
+#%RAML 1.0
+title: bugCONSOLE216
+description: Check if Cosole renders the properties of all types correctly
+version: 1
+
+uses:
+  lib: Library-1.raml
+  
+/newResource:
+  displayName: resourceName
+  get:
+
+    responses: 
+      201:
+        body: 
+          application/json:
+            type: lib.Address
+      200:
+        body: 
+          application/json:
+            type: lib.User
+            example:
+              name: John
+              address1: 
+                street: 103, Oxford Street
+                city: London
